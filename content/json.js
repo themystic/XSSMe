@@ -175,12 +175,4 @@ if ( typeof( JSON ) === "undefined" || !JSON ) {
             return !maybeHarmful.test(aString.replace(jsonStrings, ""));
         }
     };
-
-    if ( typeof( JSON ) !== 'undefined' && JSON && JSON.parse && JSON.stringify ) {
-        dump( '\nXSS Me: Installed and using non-canonical JSON parser.\n' );
-    } else {
-        dump( '\nXSS Me: ERROR! Failed to install non-canonical JSON parser!\n' );
-    }
-} else {
-    dump( '\nXSS Me: Using canonical JSON parser.\n' );
 }
