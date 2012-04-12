@@ -4,7 +4,7 @@
   <Description about="urn:mozilla:install-manifest">
     <em:id>xssme@security.compass</em:id>
     <em:name>XSS Me</em:name>
-    <em:version>0.4.6 </em:version>
+    <em:version>0.4.6</em:version>
     <em:type>2</em:type>
     <em:creator>Security Compass</em:creator>
     <em:description>An extension to test for Cross Site Scripting vulnerabilities</em:description>
